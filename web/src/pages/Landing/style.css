@@ -1,4 +1,3 @@
-
 #landing {
     width: 100vw;
     height: 100vh;
@@ -28,12 +27,12 @@
 }
 
 #landing #container-page h1{
-    color: var(--color-adota);
+    color: var(--color-pet);
     font-size: 10rem;
 }
 
 #landing #container-page h1 span{
-    color: var(--color-ae);
+    color: var(--color-finder);
 }
 
 #landing #container-page p{
@@ -53,7 +52,7 @@
     align-items: center;
 }
 
-#landing #container-page #container-buttons button {
+#landing #container-page #container-buttons a {
     height: 6rem;
     color: var(--color-text-button);
     font-size: 2rem;
@@ -61,21 +60,24 @@
     border: 0;
     border-radius: 3px;
     cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 #landing #container-page #container-buttons .find{
-    background: var(--color-ae);
+    background: var(--color-finder);
 }
 
 #landing #container-page #container-buttons .divulge{
-    background: var(--color-adota);
+    background: var(--color-pet);
     margin-left: 2rem;
 }
 
 #landing #container-page #container-buttons .find:hover{
-    background: var(--color-ae-dark);
+    background: var(--color-finder-dark);
 }
 
 #landing #container-page #container-buttons .divulge:hover{
-    background: var(--color-adota-dark);
+    background: var(--color-pet-dark);
 }

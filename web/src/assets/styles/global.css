@@ -1,13 +1,17 @@
 :root {
     font-size: 60%;
-
     --color-background: #F0F0F7;
     --color-text-base: #6A6180;
-    --color-adota: #73CEF6;
-    --color-ae: #FF8DEA;
-    --color-adota-dark: #34b1e8;
-    --color-ae-dark: #f766dc;
-    --color-text-button: #fff
+    --color-pet: #73CEF6;
+    --color-finder: #FF8DEA;
+    --color-pet-dark: #34b1e8;
+    --color-finder-dark: #f766dc;
+    --color-text-button: #fff;
+    --color-input-background: #F8F8FC;
+    --color-line-in-white: #E6E6F0;
+    --color-pet-light: #6fb9da;
+    --color-box-base: #FFF;
+    --color-box-footer: #e2e0e0;
 }
 
 * {
