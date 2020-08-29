@@ -20,7 +20,7 @@ export default function Landing() {
                     Divulgue e Encontre animais que precisam de um lar.</p>
                 <div id="container-buttons">
                     <Link className="find" to='/'>Encontrar</Link>
-                    <Link className="divulge" to='/singup'>Divulgar</Link>
+                    <Link className="divulge" to='/login'>Divulgar</Link>
                 </div>
             </div>
         </div>

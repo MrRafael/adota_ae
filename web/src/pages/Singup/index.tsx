@@ -8,6 +8,7 @@ export default function Singup() {
     return (
         <div id="singup-page" className="container">
             <PageHeader
+                backLink="/login"
                 title="Você não vai se arrepender de fazer parte da nossa comunidade."
                 description="O primeiro passo e preencher esse formulario de inscrição"
             />
@@ -19,14 +20,20 @@ export default function Singup() {
                         <Input
                             id="name"
                             label="Nome Completo"
-                            // value={name}
-                            // onChange={e => setName(e.target.value)}
+                        // value={name}
+                        // onChange={e => setName(e.target.value)}
                         />
                         <Input
                             id="email"
                             label="E-mail"
-                            // value={whatsapp}
-                            // onChange={e => setWhatsapp(e.target.value)}
+                        // value={whatsapp}
+                        // onChange={e => setWhatsapp(e.target.value)}
+                        />
+                        <Input
+                            id="password"
+                            label="Password"
+                        // value={whatsapp}
+                        // onChange={e => setWhatsapp(e.target.value)}
                         />
                     </fieldset>
 
@@ -35,32 +42,32 @@ export default function Singup() {
                         <Input
                             id="cep"
                             label="CEP"
-                            // value={cost}
-                            // onChange={e => setCost(e.target.value)}
+                        // value={cost}
+                        // onChange={e => setCost(e.target.value)}
                         />
                         <Input
                             id="estado"
                             label="Estado"
-                            // value={cost}
-                            // onChange={e => setCost(e.target.value)}
+                        // value={cost}
+                        // onChange={e => setCost(e.target.value)}
                         />
                         <Input
                             id="cidade"
                             label="Cidade"
-                            // value={cost}
-                            // onChange={e => setCost(e.target.value)}
+                        // value={cost}
+                        // onChange={e => setCost(e.target.value)}
                         />
                         <Input
                             id="rua"
                             label="Rua"
-                            // value={cost}
-                            // onChange={e => setCost(e.target.value)}
+                        // value={cost}
+                        // onChange={e => setCost(e.target.value)}
                         />
                         <Input
                             id="numero"
                             label="Número"
-                            // value={cost}
-                            // onChange={e => setCost(e.target.value)}
+                        // value={cost}
+                        // onChange={e => setCost(e.target.value)}
                         />
                     </fieldset>
 

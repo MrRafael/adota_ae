@@ -1,0 +1,90 @@
+#login-page {
+    display: flex;
+}
+
+#login-page .form-container{
+    background: white;
+    width: 50vw;
+    height: 100vh;
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+#login-page .form-container form{
+    background: var(--color-background);
+    width: 100%;
+    height: 50%;
+    border-radius: 0.8rem;
+    margin: -3.2rem auto 3.2rem;
+    padding: 6.4rem;
+    overflow: hidden;
+}
+
+
+#login-page .form-container form button{
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-pet);
+    color: var(--color-text-button);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: backgroud-color 0.2s;
+    margin-top: 3.2rem;
+}
+
+#login-page .form-container form button:hover{
+    background: var(--color-pet-dark);
+}
+
+
+#login-page .form-container form .container-link{
+    display: flex;
+    justify-content: space-between;
+}
+
+#login-page .form-container form .container-link a{
+    text-decoration: none;
+}
+
+#login-page .petfinder{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#login-page .petfinder #background-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 500px;
+    overflow: hidden;
+}
+
+#login-page .petfinder #background-container img{
+    position: absolute;
+    width: 100%;
+    padding: 30px;
+}
+
+#login-page .petfinder #background-container h1{
+    color: var(--color-pet);
+    font-size: 10rem;
+}
+
+#login-page .petfinder #background-container h1 span{
+    color: var(--color-finder);
+}

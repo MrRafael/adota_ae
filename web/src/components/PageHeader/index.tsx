@@ -7,13 +7,14 @@ import './style.css';
 interface PageHeaderProps {
     title: string;
     description?: string;
+    backLink?: string;
 }
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => {
     return (
         <header className="page-header">
             <div className="top-bar-container">
-                <Link to="/">
+                <Link to={props.backLink ? props.backLink : "/"}>
                     <img src={backIcon} alt="Voltar" />
                 </Link>
             </div>
