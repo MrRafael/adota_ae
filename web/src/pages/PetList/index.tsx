@@ -4,6 +4,7 @@ import PageHeader from '../../components/PageHeader';
 
 import './style.css';
 import Select from '../../components/Select';
+import PetItem from '../../components/PetItem';
 
 export default function PetList() {
     return (
@@ -32,6 +33,8 @@ export default function PetList() {
             </PageHeader>
 
             <main>
+                <PetItem/>
+                <PetItem/>
                 {/* {teachers.map((item, index) => {
                     return (
                         <TeacherItem
