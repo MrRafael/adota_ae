@@ -19,7 +19,7 @@ export default function Landing() {
                     prepare-se para uma experiência gratificante que durará muitos anos.<br />
                     Divulgue e Encontre animais que precisam de um lar.</p>
                 <div id="container-buttons">
-                    <Link className="find" to='/'>Encontrar</Link>
+                    <Link className="find" to='/petlist'>Encontrar</Link>
                     <Link className="divulge" to='/login'>Divulgar</Link>
                 </div>
             </div>

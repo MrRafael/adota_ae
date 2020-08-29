@@ -1,0 +1,39 @@
+#page-pet-list {
+    width: 100vw;
+    height: 100vh;
+}
+
+#search-pets {
+    margin-top: 3.2rem;
+}
+
+#search-pets label {
+    color: var(--color-text-in-primary);
+}
+
+#page-pet-list main {
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+@media (min-width:700px) {
+    #page-pet-list {
+        max-width: 100%;
+    }
+
+    #search-pets {
+        width: 100%;
+        position: absolute;
+        bottom: -28px;
+    }
+
+    #search-pets .select-block + .select-block {
+        margin-top: 0;
+    }
+
+    #page-pet-list main {
+        padding: 3.2rem 0;
+        max-width: 740px;
+        max-width: 0 auto;
+    }
+}
