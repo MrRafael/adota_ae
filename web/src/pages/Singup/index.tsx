@@ -44,7 +44,10 @@ export default function Singup() {
 
     function handleSubmit(event: FormEvent) {
         event.preventDefault();
-
+        if (nome == "" || email == "" || password == "" || cep == "" || estado == "" || cidade == "" || rua == "" || numero == "") {
+            alert("todos os dados devem ser preenchidos")
+            return;
+        }
         api.post('user', {
             nome,
             email,
