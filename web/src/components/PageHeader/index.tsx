@@ -8,6 +8,7 @@ interface PageHeaderProps {
     title: string;
     description?: string;
     backLink?: string;
+    topleftcontent?: any
 }
 
 const PageHeader: React.FC<PageHeaderProps> = (props) => {
@@ -17,6 +18,9 @@ const PageHeader: React.FC<PageHeaderProps> = (props) => {
                 <Link to={props.backLink ? props.backLink : "/"}>
                     <img src={backIcon} alt="Voltar" />
                 </Link>
+                <div className="topleft-content">
+                    {props.topleftcontent}
+                </div>
             </div>
 
             <div className="header-content">

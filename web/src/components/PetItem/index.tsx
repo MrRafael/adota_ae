@@ -1,23 +1,27 @@
 import React from 'react';
 
 import './style.css';
+import InfoPetItem from '../InfoPetItem';
+
+interface petInfoData {
+    nome: string,
+    raca: string,
+    idade: string,
+    peso: string,
+    cidade: string,
+    email: string,
+}
 
 
-export default function PetItem() {
+ const PetItem:React.FC<petInfoData> =(props) => {
 
     return (
         <article className="pet-item">
-            <img
-                src="https://cdn.pixabay.com/photo/2015/11/17/13/13/dogue-de-bordeaux-1047521__340.jpg"
-                alt="Foto Perfil" />
-                <div className="info">
-                    <p>Nome: <span>Bob</span></p>
-                    <p>Raça: <span>DOGO</span></p>
-                    <p>Idade: <span>2 anos</span></p>
-                    <p>Peso: <span>2kg</span></p>
-                    <p>Cidade: <span>Piracicaba SP</span></p>
-                    <p>Contato: <span>email@email.com</span></p>
-                </div>
+            <InfoPetItem
+                {...props}
+            />
         </article>
     );
 }
+
+export default PetItem

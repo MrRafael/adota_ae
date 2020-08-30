@@ -1,0 +1,50 @@
+#page-pet-form {
+    width: 100vw;
+    height: 100vh;
+}
+
+#container-button {
+    margin-top: 3.2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#container-button button {
+    height: 5.6rem;
+    background: var(--color-finder);
+    color: var(--color-text-button);
+    border: 0;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font: 700 1.6rem Archivo;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 1rem;
+    transition: backgroud-color 0.2s;
+}
+
+#page-pet-form main {
+    margin: 3.2rem auto;
+    width: 90%;
+}
+
+@media (min-width:700px) {
+    #page-pet-form {
+        max-width: 100%;
+    }
+
+    #container-button {
+        width: 100%;
+        position: absolute;
+        bottom: -28px;
+        
+    }
+
+    #page-pet-form main {
+        padding: 3.2rem 0;
+        max-width: 740px;
+        max-width: 0 auto;
+    }
+}

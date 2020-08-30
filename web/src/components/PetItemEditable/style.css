@@ -1,0 +1,53 @@
+.pet-item-editable {
+    background: var(--color-box-base);
+    border: 1px solid var(--color-line-in-white);
+    border-radius: 0.8rem;
+    margin-top: 2.4rem;
+    overflow: hidden;
+    padding: 3.2rem 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pet-item-editable form{
+    width: 100%;
+    height: 100%;
+}
+
+.pet-item-editable .topleft-actions{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+}
+
+.pet-item-editable .topleft-actions img{
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+}
+
+.pet-item-editable .topleft-actions img:last-child{
+    margin-left: 10px;
+}
+
+.pet-item-editable img{
+    width: 27rem;
+    height: 27rem;
+    object-fit: cover;
+    
+}
+
+.pet-item-editable .info{
+    margin-left: 3rem;
+}
+
+.pet-item-editable .info  p{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.pet-item-editable .info  p:first-child{
+    margin-top: 0;
+}

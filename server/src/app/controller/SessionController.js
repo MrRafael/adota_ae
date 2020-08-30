@@ -4,6 +4,8 @@ class SessionController {
     async store(request, response) {
         const { email, password } = request.body;
 
+        console.log(email, password);
+
         const user = await User.findOne({
             where: { email }
         })
@@ -16,7 +18,7 @@ class SessionController {
             return response.status(401).json({ message: 'Incorrect password' })
         }
 
-        return response.json({ user })
+        return response.json({ user, token: user.generateToken() })
     }
 }
 
