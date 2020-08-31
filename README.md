@@ -11,11 +11,11 @@
 <h2 id="how-to-start"> How to Start </h2>
 
 This project is divided into two parts:
-1. <a href="#how-to-start">Backend</a>
-2. <a href="#how-to-start">Frontend</a>
+1. <a href="#backend">Backend</a>
+2. <a href="#frontend">Frontend</a>
 
 
-<h2 id="how-to-start"> Backend </h2>
+<h2 id="backend"> Backend </h2>
 
 ### Pre-requisites
 
@@ -75,7 +75,7 @@ The following tools were used in the construction of the server project:
 
 ---
 
-<h2 id="how-to-start"> Frontend </h2>
+<h2 id="frontend"> Frontend </h2>
 
 ### Pre-requisites
 
