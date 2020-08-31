@@ -82,7 +82,7 @@ class PetController {
                 where: { id }
             })
 
-            return response.status(201).send();
+            return response.status(200).send();
         } catch (error) {
             console.log(erro);
             return response.status(500).json({
@@ -98,7 +98,7 @@ class PetController {
                 where: { id: filter.id }
             })
 
-            return response.status(201).send();
+            return response.status(200).send();
         } catch (error) {
             console.log(erro);
             return response.status(500).json({
